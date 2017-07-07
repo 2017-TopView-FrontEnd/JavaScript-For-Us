@@ -8,7 +8,7 @@
  - 每周之后，请把每周学习到的东西整理成Mark Down，把自己写的demo源码上传到本 repo 对应的文件夹. 例子请看 week1 文件夹。:notes:
  - 注意培养正确的代码规范，具体代码规范参考 [`this`](https://github.com/2017-TopView-FrontEnd/JavaScript-Code-Standard)
  - 该学习路线将会花费 **4周** 的时间! 时间自行安排 :smiling_imp:
- - [太长不看](#鸡汤)
+ - [太长不看](#heavy_check_mark鸡汤)
 
 ## Resources
 整个学习路线会用到下面的资源:
