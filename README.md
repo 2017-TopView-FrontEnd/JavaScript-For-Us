@@ -17,7 +17,8 @@
  - [Free Code Camp][3]
  - [GitHub][4]
  - [Code School][5]
- - [FlexboxFroggy][17]
+ - [Flexbox Froggy][17]
+ - [GRID GARDEN][18]
  - [MDN文档哟](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
  - [Git - 廖雪峰](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/)
  - [很重要的代码规范](https://github.com/2017-TopView-FrontEnd/JavaScript-Code-Standard) :laughing::laughing:
@@ -30,6 +31,7 @@
 | -----                  | ----  |
 | Free Code Camp         | **Getting Started**, **HTML5 & CSS**, **Responsive Design with Bootstrap** 部分 |
 | FlexboxFroggy          | 先看[这个](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)然后尝试完成flexbox那个网站的题    |
+| GRID GARDEN | grid 种菜小游戏 |
 | JavaScript高级程序设计  | 前言, 第1章和第2章 |
 | Free Code Camp         | `Basic JavaScript` 部分 |
 | JavaScript高级程序设计  | 第3章, 第4章(可以跳过位操作符部分内容) |
@@ -146,3 +148,4 @@
 [15]: https://www.reddit.com/r/javascript
 [16]: https://medium.com/tag/javascript
 [17]: http://flexboxfroggy.com
+[18]: http://cssgridgarden.com
