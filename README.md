@@ -67,6 +67,7 @@
 - 添加 / 删除 todo
 - 完成 / 取消完成 todo
 - 显示所有/ 完成 / 未完成的 todo
+- 显示已完成的todo的数目和所有todo的数目
 - 写2个版本。原生 JavaScript && jQuery
 - 用 Git 以及 GitHub 来管理你们的 todo 项目
 - 学会 Git 的分支管理，请利用 GitHub 的 Projects Pages 把你的 Todo 项目发布到网上
@@ -85,13 +86,14 @@
 ### 改进 Todo
 - 提供修改 todo 功能
 - 清除所有已经完成的 todo
+- 尝试给todo加上优先级。优先级高的会显示在比较靠上面。
 - 使用 jQuery 的添加动画。比如，添加 todo 时的淡入 && 删除时的淡出
 - 添加用户验证: 登录注销，利用 Local Storage (看看与用Session Storage会有什么不同)
 - 使用 [JSON Server](https://github.com/typicode/json-server) 来模拟后台
 
 
 ## Week 4 - Module, MVC, Class, Inheritance, Router
-涉及了模块化，类，继承，ES6(ES2015), 路由, 以及多个小项目。
+涉及了JS模块化，类，继承，ES6(ES2015), 路由, 以及多个小项目。
 
 | Source                  | Tasks |
 | ----                    | ----  |
@@ -115,7 +117,7 @@
 | ----      | ----         | ----        |
 | 5         | JS 框架      | React, Angular, Vue 等|
 | 5         | 打包工具     | Webpack，Gulp等        |
-| 5         | 代码规范     | eslint等               |
+| 5         | 代码规范     | 使用eslint等           |
 | 5         | JavaScript   | ES2015  (如何使用？[`babel`](http://babeljs.io/))      |
 | 4         | CSS 预处理器 | Sass, Less等  |
 | 3         | 服务器语言   | Node.js 等|
@@ -126,7 +128,9 @@
 
 ## :heavy_check_mark:鸡汤
 
- - **看书看不懂的部分就跳过!!** 总之要看快速看完一遍！:sunglasses::sunglasses:
+ - **看书看不懂的部分就跳过!! 因为没有弄懂的以后实践的时候自然会弄懂的** 总之要看快速看完一遍！:sunglasses::sunglasses:
+ - 看书的时候多做笔记:pencil2::pencil2:（用MarkDown做笔记）
+ - 多动手写代码，写得多才学得多。学到的东西尽量实际地打出来`demo`。对于一个方法或者数据类型，写着写着才能发现它的一些细节和特色。
  - 遇到不懂的地方请 google，或者问小伙伴，或者提 issue，或者问师兄 ... 师姐 :new_moon_with_face::new_moon_with_face:
  - 加油哦:rocket: 这将是一个非常充实的假期 :punch::punch:
 
