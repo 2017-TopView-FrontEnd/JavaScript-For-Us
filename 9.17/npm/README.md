@@ -93,6 +93,7 @@ new Vue({
 - npm list
 - npm run (script)
 - npm publish(发布模块)
+- npm link(开发调试模块使用)
 
 参考：[npm](http://javascript.ruanyifeng.com/nodejs/npm.html)
 
