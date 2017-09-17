@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index",
+    "start": "node index && node dist",
     "dev": "webpack"
   },
   "keywords": [
@@ -18,5 +18,8 @@
   "license": "ISC",
   "devDependencies": {
     "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "vue": "^2.4.4"
   }
 }
