@@ -33,23 +33,20 @@ JS的模块化到今天已经出现了很久，也有过很多种实现方式，
 `webpack`可能你们都有听说过。可能大多数人对它的评价是一个打包工具，其实它是一个帮助你实现模块化的多功能打包工具。使用`webpack`之后，你可以在你的代码里直接使用`CommonJS`的标准做模块化。甚至我们可以在`webpack`里面使用它的`loaders`功能配合`babel`，然后就可以在代码里面使用ES6的语法了，因为`babel`可以把ES6的语法转化为ES5，对于不支持某些ES6标准的浏览器来说比较友好。
 
 ``` javascript
-var fetch = require('./util/fetch')
-var maxScore = '1'
-
-fetch('/api/addScore', function (res) {
-	//
-})
-
-module.exports = {
-	maxScore: maxScore
+function plus (x, y) {
+	return x + y
 }
+
+module.exports = plus
 ```
 
 ``` javsscript
 // 别的文件里
-var maxScore = require('./test').maxScore
+var plus = require('./util/plus.js')
 
-console.log(maxScore)
+console.log(plus(3, 4))
+
+console.log(process.env.npm_package_config_port)
 ```
 
 前面说到`webpack`是个多功能打包工具，那能做的肯定不止是模块化这么点东西，还有很多很多，以后慢慢接触到再学也不迟，这里只是说到了模块化的概念所以提及一下`webpack`，因为`webpack`要去学深的话，挺复杂的。
