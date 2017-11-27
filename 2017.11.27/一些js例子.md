@@ -451,7 +451,7 @@ myObject.hasOwnProperty( "a" ); // true
 ```
 - **Object.create()** 方法会使用指定的原型对象及其属性去创建一个新的对象。
 
-- **hasOwnProperty()**方法会返回一个布尔值，指示对象是否具有指定的属性作为自身（不继承）属性。
+- **hasOwnProperty()** 方法会返回一个布尔值，指示对象是否具有指定的属性作为自身（不继承）属性。
 
   > 所有继承了 [`Object`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object) 的对象都会继承到 `hasOwnProperty` 方法。这个方法可以用来检测一个对象是否含有特定的自身属性；和 [`in`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/in) 运算符不同，该方法会忽略掉那些从原型链上继承到的属性。
 
